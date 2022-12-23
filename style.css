@@ -1,0 +1,51 @@
+body{text-align: center;
+display: grid;
+width: 100%;
+}
+
+article
+{text-align: left;
+float: left;
+margin-left: 20%;
+margin-top: 15%;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 10px;
+    width: 50px;
+}
+form{
+    text-align: center;
+    margin-right: 10%;
+    background-color: white;
+    float: right;
+    padding: 3px;
+    border: 2px;
+    margin-left: 50%;
+    
+}
+.logged{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    border: 50px;
+    position: relative;
+
+    
+
+}
+.new{background-color: lightgreen;
+    color: white;
+    border:50px;
+    position: relative;
+    height: 18px;
+    padding: 3px;
+    border-radius: 2px;
+    
+}
+h2, h5{
+    color: blue;
+}

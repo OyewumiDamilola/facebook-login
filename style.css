@@ -1,5 +1,5 @@
 body{text-align: center;
-display: grid;
+display: flex;
 width: 100%;
 }
 
@@ -9,43 +9,57 @@ float: left;
 margin-left: 20%;
 margin-top: 15%;
 }
-li{
-    list-style-type: none;
-    padding: 5px;
-    font-style: normal;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 10px;
-    width: 50px;
-}
+
 form{
-    text-align: center;
-    margin-right: 10%;
-    background-color: white;
-    float: right;
-    padding: 3px;
-    border: 2px;
-    margin-left: 50%;
-    
+    box-shadow: inset;
+    padding-top: 0px;
+    padding-bottom: 10px;;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 100px;
+    list-style: none;
+    margin-top: 50px;  
+  
 }
+
+input{
+    border-color: lightgrey;
+    width: 100%;
+    border-radius: 10px; 
+    padding: 30px, 30px, 30px, 30px;
+    margin-top: 30px;
+    }
+
+    input:hover{color: blue;}
+
 .logged{
     background-color: blue;
     text-align: center;
     color: white;
-    border: 50px;
-    position: relative;
-
-    
-
+    border: 10px;
+width: 5%;
+border-radius: 10px;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-bottom: 10px;
 }
+
 .new{background-color: lightgreen;
-    color: white;
-    border:50px;
+    border:100px;
+width: 100px;    
     position: relative;
-    height: 18px;
-    padding: 3px;
-    border-radius: 2px;
-    
+    height: 35px;
+    padding: 3px 3px 3px 3px;
+    border-radius: 3px;
+    margin-top: 10px; 
+
 }
-h2, h5{
+
+
+a{
+    text-align: center;
+    text-decoration: none;
     color: blue;
+    margin-top: 10px;
+    
 }

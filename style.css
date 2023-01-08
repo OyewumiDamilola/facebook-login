@@ -1,65 +1,90 @@
-body{text-align: center;
-display: flex;
-width: 100%;
+body{
+background-color: whitesmoke;
 }
 
-article
-{text-align: left;
-float: left;
-margin-left: 20%;
-margin-top: 15%;
+div{
+    display: flex;
 }
 
-form{
-    box-shadow: inset;
-    padding-top: 0px;
-    padding-bottom: 10px;;
-    padding-left:10px;
-    padding-right:10px;
-    border-radius: 100px;
-    list-style: none;
-    margin-top: 50px;  
-  
+article{
+    margin-top: 200px;
+    margin-left: 360px;    
+}
+
+form{float: right;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    margin-top: 200px;
+   background-color: white;
+   border: 300px;
+   border-radius: 5px;
+padding-bottom: 20px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: -5px;
+margin-left: 80px;
+align-content: center;
+box-shadow: 1.2px 1.2px;
 }
 
 input{
-    border-color: lightgrey;
-    width: 100%;
-    border-radius: 10px; 
-    padding: 30px, 30px, 30px, 30px;
-    margin-top: 30px;
-    }
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 60px;
+    padding-left: 10px;
+    border-width: 10px;
+    border-color: black;
+    margin-right: 30px;
+}
 
-    input:hover{color: blue;}
+a{
+    margin-top: 10px;
+    color: blue;
+    font-size: small;
+    font-weight: lighter;
+    padding-left: 80px;
+}
+
+.one{
+    border: 100px;
+    border-radius: 3px;
+    border-color: black;
+}
+.two{
+    border: 100px;
+    border-radius: 3px;
+}
+
+.logged .new{
+    cursor: progress;
+}
+h2{color: blue;
+font-weight: bold;
+}
 
 .logged{
     background-color: blue;
-    text-align: center;
     color: white;
-    border: 10px;
-width: 5%;
-border-radius: 10px;
-padding-top: 15px;
-padding-bottom: 15px;
-margin-bottom: 10px;
-}
-
-.new{background-color: lightgreen;
-    border:100px;
-width: 100px;    
-    position: relative;
-    height: 35px;
-    padding: 3px 3px 3px 3px;
-    border-radius: 3px;
-    margin-top: 10px; 
-
-}
-
-
-a{
-    text-align: center;
-    text-decoration: none;
-    color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border:100px ;
+    border-radius: 5px;
     margin-top: 10px;
-    
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.new{
+    background-color: rgb(76, 180, 76);
+    color: white;
+    border-style: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 17px;
+    padding-left: 17px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 15px;
 }
